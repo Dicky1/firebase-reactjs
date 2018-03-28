@@ -4,14 +4,6 @@ import "./App.css";
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
 import firebase from 'firebase';
 
-var config = {
-  apiKey: "AIzaSyDkGAgIKRU4g4HzrSe5vmeJ8Y37IaW3ujI",
-  authDomain: "dicky-75a0b.firebaseapp.com",
-  databaseURL: "https://dicky-75a0b.firebaseio.com",
-  projectId: "dicky-75a0b",
-  storageBucket: "dicky-75a0b.appspot.com",
-  messagingSenderId: "803499473374"
-};
 firebase.initializeApp(config);
 
 const uiConfig = {
